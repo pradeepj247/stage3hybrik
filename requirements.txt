@@ -1,0 +1,10 @@
+torch>=1.9.0
+torchvision>=0.10.0
+numpy
+opencv-python
+matplotlib
+easydict
+pyyaml
+chumpy
+tqdm
+# PyTorch3D NOT required - we use dummy renderer
