@@ -1,3 +1,8 @@
+# Stage 3 HybrIK — Setup
+
+**DETAILED SETUP GUIDE 👉** [Full installation & model setup instructions](docs/HybrIK_Stage3_setup.md)
+
+> ⚠️ This README is still work in progress — detailed docs are under \`docs/\`.
 # 🚀 Stage3 HybrIK - Working Pipeline
 
 Minimal working implementation of HybrIK with all critical fixes applied.
