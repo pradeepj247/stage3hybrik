@@ -108,7 +108,7 @@ print("✅ ico_sphere ok, verts:", mesh.verts_packed().shape)
 
 ---
 
-## 6. Install HybrIK package (no conda)
+## 6. Install HybrIK package
 
 We now install HybrIK directly in Colab.
 
@@ -126,7 +126,7 @@ We now install HybrIK directly in Colab.
 Install modern OpenCV:
 
 ```bash
-!pip install "opencv-python==4.12.0.88"
+!pip install opencv-python
 ```
 
 Patch setup.py:
@@ -165,14 +165,6 @@ print("HybrIK import OK:", hybrik.__file__)
 print("OpenCV:", cv2.__version__)
 print("Torch:", torch.__version__)
 ```
-
----
-
-## 7. TODO (Next Steps)
-
-- Add SMPL models  
-- Add HybrIK pretrained checkpoints  
-- Demo inference (image/video)
 
 ---
 
